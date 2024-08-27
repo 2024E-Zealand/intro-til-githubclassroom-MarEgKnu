@@ -13,5 +13,6 @@ namespace MyFirstGitHubClassRoomConsoleApp60
 
         public Vector3 DemoLocation { get; set; }
 
+        public IntPtr DemoPointer { get; set; } = (IntPtr)0x00356;
     }
 }
